@@ -1,0 +1,27 @@
+.covercontainer {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.covercontainer > h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.covercontainer > p {
+  color: white;
+  font-size: 25px;
+}

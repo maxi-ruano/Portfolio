@@ -1,0 +1,30 @@
+.aboutcontainer {
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 70vh;
+  padding: 100px 0 100px 0;
+}
+
+.aboutdesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  padding: 0 100px 0100px;
+}
+.aboutdesc > h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.aboutdesc > p {
+  line-height: 1.5;
+}
+
+.aboutimg {
+  display: flex;
+  align-self: center;
+  overflow: hidden;
+  width: 45%;
+  height: 400px;
+}
