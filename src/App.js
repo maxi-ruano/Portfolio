@@ -3,6 +3,7 @@ import Cover from './components/cover/Cover';
 import "./App.css";
 import Navbar from './components/Navbar';
 import About from './components/about/About';
+import Slider from './components/slider/Slider';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Cover/>
       <About/>
+      <Slider/>
     </div>
   );
 }
