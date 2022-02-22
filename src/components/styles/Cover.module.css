@@ -25,3 +25,45 @@ video {
   color: white;
   font-size: 25px;
 }
+
+@media screen and (max-width: 968px) {
+  .covercontainer > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .covercontainer > p {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .covercontainer {
+    width: 791px;
+    text-align: center;
+  }
+
+  .covercontainer > video {
+    width: 791px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .covercontainer {
+    text-align: center;
+    width: 806px;
+  }
+  .covercontainer > p {
+    font-size: 35px;
+    text-align: center;
+  }
+  .covercontainer > h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .covercontainer > video {
+    width: 806px;
+  }
+}

@@ -26,5 +26,49 @@
   align-self: center;
   overflow: hidden;
   width: 45%;
-  height: 400px;
+  height: 419px;
+}
+@media screen and (max-width: 968px) {
+  .aboutdesc > h3 {
+    font-size: 30px;
+  }
+  .aboutdesc > p {
+    font-size: 17px;
+  }
+  .aboutimg {
+    height: 395px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutcontainer {
+    width: 791 px;
+  }
+  .aboutdesc {
+    margin-top: 80px;
+  }
+  .aboutdesc > h3 {
+    font-size: 25px;
+  }
+  .aboutdesc > p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutcontainer {
+    width: 782px;
+  }
+  .aboutdesc {
+    margin-top: 105px;
+  }
+  .aboutdesc > h3 {
+    font-size: 30px;
+  }
+  .aboutdesc > p {
+    font-size: 20px;
+  }
+  .aboutimg {
+    height: 394px;
+    margin-right: 30px;
+  }
 }

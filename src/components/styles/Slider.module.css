@@ -45,3 +45,15 @@
   padding: 10px;
   line-height: 1.7;
 }
+
+@media screen and (max-width: 768px) {
+  .carouselcontainer {
+    width: 791px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carouselcontainer {
+    width: 806px;
+  }
+}
